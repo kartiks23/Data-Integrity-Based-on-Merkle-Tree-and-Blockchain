@@ -1,0 +1,4 @@
+\subsection{Sparse Merkle Tree}
+In blockchain, a sparse Merkle tree is a data structure used to represent the state of a blockchain. It is designed to be more efficient than a traditional Merkle tree, particularly in cases where the state is sparse or contains a large number of empty (i.e., zero) values.
+
+In a sparse Merkle tree, instead of storing every leaf node, only non-empty leaves are stored. This is achieved by storing a bitmap that represents the positions of the non-empty leaves, and only storing the nodes that lead to those non-empty leaves. As a result, the tree is much smaller than a traditional Merkle tree, and can be more efficient in terms of storage and computation.
